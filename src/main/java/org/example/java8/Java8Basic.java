@@ -16,7 +16,7 @@ public class Java8Basic {
     }
 
     public void AverageOfAllNumber2() {
-        int []numbers = {1, 2, 3, 4, 5};
+        int []numbers = {1, 2, 3, 4, 5,6};
         Arrays.stream(numbers).average()
             .ifPresent(avg -> System.out.println("Average of all number is: " + avg));
     }
