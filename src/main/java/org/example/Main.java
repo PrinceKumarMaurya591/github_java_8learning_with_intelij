@@ -7,6 +7,8 @@ import org.example.java8.Java8Basic;
 public class Main {
     public static void main(String[] args) {
        Java8Basic java8Basic = new Java8Basic();
-       java8Basic.method1();
+       java8Basic.method1SumOfAllNumber();
+       java8Basic.AverageOfAllNumber();
+       java8Basic.AverageOfAllNumber2();
     }
 }
