@@ -1,5 +1,9 @@
 package org.example.java8;
 
 public class Java8Basic {
-System.out.println("hello");
+    public void method1(){
+        System.out.println("Hello World");
+    }
+
+
 }
