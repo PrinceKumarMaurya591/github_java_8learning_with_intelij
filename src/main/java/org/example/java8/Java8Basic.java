@@ -10,6 +10,8 @@ public class Java8Basic {
       int sum=Arrays.stream(number).sum();
       System.out.println("Sum of all number is: "+sum);
     }
+
+
     public void AverageOfAllNumber() {
     int []numbers = {1, 2, 3, 4, 5};
     int avg=Arrays.stream(numbers).sum()/numbers.length;
@@ -23,6 +25,7 @@ public class Java8Basic {
             .ifPresent(avg -> System.out.println("Average of all number is: " + avg));
     }
 
+    // even and odd number
     public void evenAndOddNumber(){
         int[] arr={1,2,3,4,5,6,7,8,9};
        List<Integer> odd= Arrays.stream(arr).filter(n->n%2==0).boxed().toList();
