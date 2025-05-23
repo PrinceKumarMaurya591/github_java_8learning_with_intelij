@@ -35,4 +35,13 @@ public class Java8Basic {
 
     }
 
+    //number staert with prefix 2
+    public void numberStartWithPrefix2(){
+        List<String> numbers = Arrays.asList("123", "456", "789", "234", "567");
+        List<String> filteredNumbers = numbers.stream()
+                .filter(number -> number.startsWith("2"))
+                .toList();
+        System.out.println("Numbers starting with prefix 2: " + filteredNumbers);
+    }
+
 }
