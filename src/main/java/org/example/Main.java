@@ -10,5 +10,6 @@ public class Main {
        java8Basic.method1SumOfAllNumber();
        java8Basic.AverageOfAllNumber();
        java8Basic.AverageOfAllNumber2();
+       java8Basic.evenAndOddNumber();
     }
 }
