@@ -12,5 +12,6 @@ public class Main {
        java8Basic.AverageOfAllNumber();
        java8Basic.AverageOfAllNumber2();
        java8Basic.evenAndOddNumber();
+       java8Basic.numberStartWithPrefix2();
     }
 }
